@@ -2,14 +2,15 @@
 
 A Monte Carlo simulation of dipolar magnetic particles on a 2D toroidal grid with real-time Pygame visualization.
 
-The interaction energy of magnetic field $\textbf{H}$ with dipole is given by 
-$$E_{DH} = - \textbf{m}_i \cdot \textbf{H}$$
+The interaction energy of magnetic field $H$ with dipole is given by 
+
+\[E_{DH} = - m_i \cdot H \]
 
 The dipole dipole interaction is given by 
 
-$$E_{DD} = \frac{\mu_0}{4\pi r_{ji}^3} \left( \textbf{m}_i\cdot \textbf{m}_j\right) - 3 (\textbf{m}_i \cdot \vec{\textbf{r}}_{ji} ) (\textbf{m}_j \cdot \vec{\textbf{r}}_{ji} ) $$
+\[ E_{DD} = \frac{\mu_0}{4\pi r_{ji}^3} \left( m_i\cdot m_j\right) - 3 (r_i \cdot \vec{r}_{ji} ) (r_j \cdot \vec{r}_{ji} ) \]
 
-Wher $\textbf{m}_i, \textbf{m}_j$ are the dipole moments of two particles. $\textbf{r}_{ji}$ is the unit vector drawn from particle $i$ to $j$ and $r_{ji}$ is the distance.
+Wher $m_i, m_j$ are the dipole moments of two particles. $r_{ji}$ is the unit vector drawn from particle $i$ to $j$ and $r_{ji}$ is the distance.
 
 ![](assets/shot.png)
 
