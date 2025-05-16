@@ -1,6 +1,6 @@
 # Magnetic Dipole Simulation
 
-A Monte Carlo simulation of dipolar magnetic particles on a 2D toroidal grid with real-time Pygame visualization.
+A Monte Carlo simulation of dipolar magnetic particles on a 2D grid with real-time Pygame visualization.
 
 The interaction energy of magnetic field $H$ with dipole is given by 
 ```math
@@ -9,14 +9,15 @@ E_{DH} = - m_i \cdot H
 The dipole dipole interaction is given by 
 
 ```math
- E_{DD} = \frac{\mu_0}{4\pi r_{ji}^3} \left( m_i\cdot m_j\right) - 3 (r_i \cdot \vec{r}_{ji} ) (r_j \cdot \vec{r}_{ji} )
+ E_{DD} = \frac{\mu_0}{4\pi r_{ji}^3} \left[ (m_i\cdot m_j) - 3 (r_i \cdot \vec{r}_{ji} ) (r_j \cdot \vec{r}_{ji} )\right]
 
 ```
-Where $ m_i, m_j $ are the dipole moments of two particles. $ r_{ji} $ is the unit vector drawn from particle $i$ to $j$ and $r_{ji}$ is the distance.
+Where $ m_i, m_j $ are the dipole moments of two particles. $ \vec{r}_{ji} $ is the unit vector drawn from particle $i$ to $j$ and $r_{ji}$ is the distance.
 
-
+Initially the dipoles are randomly placed on the grid with random orientation. Over time the dipoles align themselves along the direction of magnetic field and make chain like structures.
 
 ![](assets/shot.png)
+![](assets/shot2.png)
 
 
 ## Features
