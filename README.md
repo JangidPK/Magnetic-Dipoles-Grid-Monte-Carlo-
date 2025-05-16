@@ -10,7 +10,7 @@ The dipole dipole interaction is given by
 
 \[ E_{DD} = \frac{\mu_0}{4\pi r_{ji}^3} \left( m_i\cdot m_j\right) - 3 (r_i \cdot \vec{r}_{ji} ) (r_j \cdot \vec{r}_{ji} ) \]
 
-Wher $m_i, m_j$ are the dipole moments of two particles. $r_{ji}$ is the unit vector drawn from particle $i$ to $j$ and $r_{ji}$ is the distance.
+Where $m_i, m_j$ are the dipole moments of two particles. $r_{ji}$ is the unit vector drawn from particle $i$ to $j$ and $r_{ji}$ is the distance.
 
 ![](assets/shot.png)
 
